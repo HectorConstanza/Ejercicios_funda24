@@ -14,7 +14,7 @@ int main() {
         cout << "ingrese un numero " << i+1 << ": ";
         cin >> num;
 
-        if (num % 2 == 0) {
+        if (num % 2 == 1) {
             arr[par] = num;
             par++;
         }
